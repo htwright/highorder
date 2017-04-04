@@ -1,6 +1,6 @@
 function numCounter(num){
 	let counter=1;
-	return function(value){
+	return function(){
 
 		console.log(`${num} count = ${counter}`);
 		counter++;
